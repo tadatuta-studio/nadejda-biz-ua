@@ -1,0 +1,3 @@
+block('nadejda')(
+    mix()({ block: 'container' })
+);

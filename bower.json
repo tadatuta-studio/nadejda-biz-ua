@@ -1,0 +1,15 @@
+{
+  "name": "nadejda-biz-ua",
+  "version": "1.0.0",
+  "description": "nadejda.biz.ua",
+  "bugs": "https://github.com/tadatuta-studio/nadejda-biz-ua/issues",
+  "ignore": [
+    ".bem/cache",
+    "node_modules",
+    "libs"
+  ],
+  "dependencies": {
+    "bem-core": "v2.2.1",
+    "bem-components": "git://github.com/bem/bem-components.git#issues/460@v2"
+  }
+}

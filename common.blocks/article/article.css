@@ -1,0 +1,28 @@
+.article__thumb
+{
+    float: left;
+
+    /*width: 251px;
+    height: 141px;*/
+    margin-right: 12px;
+}
+
+@media only screen
+    and (min-width: 320px)
+    and (max-width: 480px)
+    and (orientation: portrait) {
+
+    .article__thumb
+    {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+}
+
+.article__title
+{
+    font-weight: 400;
+    font-size: 19px;
+}

@@ -1,0 +1,6 @@
+block('logo')(
+    tag()('img'),
+    attrs()({
+        src: '../../common.blocks/logo/logo.png'
+    })
+)

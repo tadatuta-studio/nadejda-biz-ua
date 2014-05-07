@@ -1,0 +1,25 @@
+.nav
+{
+    list-style: none;
+
+    margin-bottom: 16px;
+}
+
+.nav__item:hover,
+.nav__item:focus
+{
+    box-shadow: 0 0 1px #c0a37c;
+}
+
+/* TODO: remove .nav cascade when extra bootstrap parts removed */
+.nav > li > a:hover,
+.nav > li > a:focus
+{
+    background-color: transparent;
+}
+/*.nav .nav__item
+{
+    display: inline-block;
+    padding: 0 12px;
+}
+*/

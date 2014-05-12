@@ -10,6 +10,6 @@
   ],
   "dependencies": {
     "bem-core": "v2.2.1",
-    "bem-components": "git://github.com/bem/bem-components.git#issues/460@v2"
+    "bem-components": "git://github.com/bem/bem-components.git#v2"
   }
 }

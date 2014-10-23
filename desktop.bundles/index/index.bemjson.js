@@ -14,6 +14,7 @@
         // ,
         // { elem: 'js', url: '//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js' }
     ],
+    mods: { theme: 'islands' },
     content: [
         {
             block: 'nadejda',

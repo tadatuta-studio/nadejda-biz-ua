@@ -3,20 +3,23 @@
     list-style: none;
 
     margin-bottom: 16px;
+    padding-left: 0;
 }
 
-.nav__item:hover,
-.nav__item:focus
+.nav__item:hover .link,
+.nav__item:focus .link
 {
     box-shadow: 0 0 1px #c0a37c;
+    border-radious: 3px;
 }
 
-/* TODO: remove .nav cascade when extra bootstrap parts removed */
-.nav > li > a:hover,
-.nav > li > a:focus
+.nav__item .link
 {
-    background-color: transparent;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
 }
+
 /*.nav .nav__item
 {
     display: inline-block;

@@ -5,8 +5,8 @@
     head: [
         { elem: 'meta', attrs: { name: 'description', content: '' } },
         { elem: 'meta', attrs: { name: 'viewport', content: 'width=device-width, initial-scale=1' } },
-        { elem: 'css', url: '//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css' },
-        { elem: 'css', url: '//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css' },
+        // { elem: 'css', url: '//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css' },
+        // { elem: 'css', url: '//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css' },
         { elem: 'css', url: '_index.css' }
     ],
     scripts: [
@@ -56,7 +56,7 @@
                                             block: 'radio-group',
                                             name: 'type',
                                             mods: {
-                                                theme: 'normal',
+                                                theme: 'islands',
                                                 type: 'button',
                                                 size: 'm'
                                             },
@@ -81,7 +81,7 @@
                                                             return {
                                                                 block: 'checkbox',
                                                                 mods: {
-                                                                    theme: 'normal',
+                                                                    theme: 'islands',
                                                                     size: 'm',
                                                                     type: 'button'
                                                                 },
@@ -102,7 +102,7 @@
                                                             return {
                                                                 block: 'checkbox',
                                                                 mods: {
-                                                                    theme: 'normal',
+                                                                    theme: 'islands',
                                                                     size: 'm',
                                                                     type: 'button'
                                                                 },
@@ -123,7 +123,7 @@
                                                             return {
                                                                 block: 'checkbox',
                                                                 mods: {
-                                                                    theme: 'normal',
+                                                                    theme: 'islands',
                                                                     size: 'm',
                                                                     type: 'button'
                                                                 },
@@ -144,7 +144,7 @@
                                                             return {
                                                                 block: 'checkbox',
                                                                 mods: {
-                                                                    theme: 'normal',
+                                                                    theme: 'islands',
                                                                     size: 'm',
                                                                     type: 'button'
                                                                 },
@@ -165,7 +165,7 @@
                                                             return {
                                                                 block: 'checkbox',
                                                                 mods: {
-                                                                    theme: 'normal',
+                                                                    theme: 'islands',
                                                                     size: 'm',
                                                                     type: 'button'
                                                                 },
@@ -183,7 +183,7 @@
                                                     content: {
                                                         block: 'checkbox',
                                                         mods: {
-                                                            theme: 'normal',
+                                                            theme: 'islands',
                                                             size: 'm',
                                                             type: 'button'
                                                         },
